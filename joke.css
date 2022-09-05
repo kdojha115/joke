@@ -1,0 +1,59 @@
+a {
+    color: #111;
+    text-decoration: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 0.99rem;
+    border-radius: 3px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background-color: blue;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #10f3f3;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    width: 450px;
+    padding: 50px 20px;
+    background-color: rgb(156, 245, 73);
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 1.1rem;
+    color: rgb(77, 111, 173);
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+.joke-text {
+    font-size: 1.8rem;
+    margin-bottom: 30px;
+    font-family: monospace;
+}
+
+.new-joke-btn {
+    background-color: #FF0000;
+}
+
+.tweet-btn {
+    background-color: #00ACEE;
+}
